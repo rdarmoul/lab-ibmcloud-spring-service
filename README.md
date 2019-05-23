@@ -44,6 +44,14 @@ To build and run the application:
 
 To run the application in Docker use the Docker file called `Dockerfile`. If you do not want to install Maven locally you can use `Dockerfile-tools` to build a container with Maven installed.
 
+
+As Alternative use IMBCLOUD Tool
+```
+ibmcloud dev get-credentials
+ibmcloud dev build
+ibmcloud dev run
+```
+
 ### Endpoints
 
 The application exposes the following endpoints:
@@ -59,3 +67,6 @@ This project was generated using:
 * generator-ibm-cloud-enablement v1.7.7
 * generator-ibm-java-spring v
 
+
+### Sources
+https://cloud.ibm.com/docs/apps/tutorials?topic=creating-apps-tutorial-microservice#deploy-microservice
