@@ -1,0 +1,10 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: labibmcloudspringservice
+  buildpack: java_buildpack
+  path: ./target/labibmcloudspringservice-1.0-SNAPSHOT.jar
+  memory: 1024M
+  domain: eu-gb.mybluemix.net
+  host: lab-ibmcloud-spring-service
